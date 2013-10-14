@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C6D6895180C596C002FF9A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C6D6894180C596C002FF9A5 /* Foundation.framework */; };
+		3C6D6897180C596C002FF9A5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C6D6896180C596C002FF9A5 /* CoreGraphics.framework */; };
+		3C6D6899180C596C002FF9A5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C6D6898180C596C002FF9A5 /* UIKit.framework */; };
+		3C6D689F180C596C002FF9A5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3C6D689D180C596C002FF9A5 /* InfoPlist.strings */; };
+		3C6D68A1180C596C002FF9A5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6D68A0180C596C002FF9A5 /* main.m */; };
+		3C6D68A5180C596C002FF9A5 /* SRTJRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6D68A4180C596C002FF9A5 /* SRTJRAppDelegate.m */; };
+		3C6D68A8180C596C002FF9A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C6D68A6180C596C002FF9A5 /* Main.storyboard */; };
+		3C6D68AB180C596C002FF9A5 /* SRTJRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6D68AA180C596C002FF9A5 /* SRTJRViewController.m */; };
+		3C6D68AD180C596C002FF9A5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C6D68AC180C596C002FF9A5 /* Images.xcassets */; };
+		3C6D68B4180C596C002FF9A5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C6D68B3180C596C002FF9A5 /* XCTest.framework */; };
+		3C6D68B5180C596C002FF9A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C6D6894180C596C002FF9A5 /* Foundation.framework */; };
+		3C6D68B6180C596C002FF9A5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C6D6898180C596C002FF9A5 /* UIKit.framework */; };
+		3C6D68BE180C596C002FF9A5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3C6D68BC180C596C002FF9A5 /* InfoPlist.strings */; };
+		3C6D68C0180C596C002FF9A5 /* JSS_ReportTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6D68BF180C596C002FF9A5 /* JSS_ReportTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C6D68B7180C596C002FF9A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C6D6889180C596C002FF9A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C6D6890180C596C002FF9A5;
+			remoteInfo = "JSS Report";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C6D6891180C596C002FF9A5 /* JSS Report.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JSS Report.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C6D6894180C596C002FF9A5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3C6D6896180C596C002FF9A5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3C6D6898180C596C002FF9A5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3C6D689C180C596C002FF9A5 /* JSS Report-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JSS Report-Info.plist"; sourceTree = "<group>"; };
+		3C6D689E180C596C002FF9A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3C6D68A0180C596C002FF9A5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3C6D68A2180C596C002FF9A5 /* JSS Report-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JSS Report-Prefix.pch"; sourceTree = "<group>"; };
+		3C6D68A3180C596C002FF9A5 /* SRTJRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SRTJRAppDelegate.h; sourceTree = "<group>"; };
+		3C6D68A4180C596C002FF9A5 /* SRTJRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SRTJRAppDelegate.m; sourceTree = "<group>"; };
+		3C6D68A7180C596C002FF9A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3C6D68A9180C596C002FF9A5 /* SRTJRViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SRTJRViewController.h; sourceTree = "<group>"; };
+		3C6D68AA180C596C002FF9A5 /* SRTJRViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SRTJRViewController.m; sourceTree = "<group>"; };
+		3C6D68AC180C596C002FF9A5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3C6D68B2180C596C002FF9A5 /* JSS ReportTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JSS ReportTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C6D68B3180C596C002FF9A5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3C6D68BB180C596C002FF9A5 /* JSS ReportTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JSS ReportTests-Info.plist"; sourceTree = "<group>"; };
+		3C6D68BD180C596C002FF9A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3C6D68BF180C596C002FF9A5 /* JSS_ReportTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSS_ReportTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C6D688E180C596C002FF9A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C6D6897180C596C002FF9A5 /* CoreGraphics.framework in Frameworks */,
+				3C6D6899180C596C002FF9A5 /* UIKit.framework in Frameworks */,
+				3C6D6895180C596C002FF9A5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C6D68AF180C596C002FF9A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C6D68B4180C596C002FF9A5 /* XCTest.framework in Frameworks */,
+				3C6D68B6180C596C002FF9A5 /* UIKit.framework in Frameworks */,
+				3C6D68B5180C596C002FF9A5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C6D6888180C596C002FF9A5 = {
+			isa = PBXGroup;
+			children = (
+				3C6D689A180C596C002FF9A5 /* JSS Report */,
+				3C6D68B9180C596C002FF9A5 /* JSS ReportTests */,
+				3C6D6893180C596C002FF9A5 /* Frameworks */,
+				3C6D6892180C596C002FF9A5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C6D6892180C596C002FF9A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C6D6891180C596C002FF9A5 /* JSS Report.app */,
+				3C6D68B2180C596C002FF9A5 /* JSS ReportTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C6D6893180C596C002FF9A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C6D6894180C596C002FF9A5 /* Foundation.framework */,
+				3C6D6896180C596C002FF9A5 /* CoreGraphics.framework */,
+				3C6D6898180C596C002FF9A5 /* UIKit.framework */,
+				3C6D68B3180C596C002FF9A5 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3C6D689A180C596C002FF9A5 /* JSS Report */ = {
+			isa = PBXGroup;
+			children = (
+				3C6D68A3180C596C002FF9A5 /* SRTJRAppDelegate.h */,
+				3C6D68A4180C596C002FF9A5 /* SRTJRAppDelegate.m */,
+				3C6D68A6180C596C002FF9A5 /* Main.storyboard */,
+				3C6D68A9180C596C002FF9A5 /* SRTJRViewController.h */,
+				3C6D68AA180C596C002FF9A5 /* SRTJRViewController.m */,
+				3C6D68AC180C596C002FF9A5 /* Images.xcassets */,
+				3C6D689B180C596C002FF9A5 /* Supporting Files */,
+			);
+			path = "JSS Report";
+			sourceTree = "<group>";
+		};
+		3C6D689B180C596C002FF9A5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C6D689C180C596C002FF9A5 /* JSS Report-Info.plist */,
+				3C6D689D180C596C002FF9A5 /* InfoPlist.strings */,
+				3C6D68A0180C596C002FF9A5 /* main.m */,
+				3C6D68A2180C596C002FF9A5 /* JSS Report-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3C6D68B9180C596C002FF9A5 /* JSS ReportTests */ = {
+			isa = PBXGroup;
+			children = (
+				3C6D68BF180C596C002FF9A5 /* JSS_ReportTests.m */,
+				3C6D68BA180C596C002FF9A5 /* Supporting Files */,
+			);
+			path = "JSS ReportTests";
+			sourceTree = "<group>";
+		};
+		3C6D68BA180C596C002FF9A5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C6D68BB180C596C002FF9A5 /* JSS ReportTests-Info.plist */,
+				3C6D68BC180C596C002FF9A5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C6D6890180C596C002FF9A5 /* JSS Report */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C6D68C3180C596C002FF9A5 /* Build configuration list for PBXNativeTarget "JSS Report" */;
+			buildPhases = (
+				3C6D688D180C596C002FF9A5 /* Sources */,
+				3C6D688E180C596C002FF9A5 /* Frameworks */,
+				3C6D688F180C596C002FF9A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "JSS Report";
+			productName = "JSS Report";
+			productReference = 3C6D6891180C596C002FF9A5 /* JSS Report.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3C6D68B1180C596C002FF9A5 /* JSS ReportTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C6D68C6180C596C002FF9A5 /* Build configuration list for PBXNativeTarget "JSS ReportTests" */;
+			buildPhases = (
+				3C6D68AE180C596C002FF9A5 /* Sources */,
+				3C6D68AF180C596C002FF9A5 /* Frameworks */,
+				3C6D68B0180C596C002FF9A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C6D68B8180C596C002FF9A5 /* PBXTargetDependency */,
+			);
+			name = "JSS ReportTests";
+			productName = "JSS ReportTests";
+			productReference = 3C6D68B2180C596C002FF9A5 /* JSS ReportTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C6D6889180C596C002FF9A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SRTJR;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Stony River Technologies";
+				TargetAttributes = {
+					3C6D68B1180C596C002FF9A5 = {
+						TestTargetID = 3C6D6890180C596C002FF9A5;
+					};
+				};
+			};
+			buildConfigurationList = 3C6D688C180C596C002FF9A5 /* Build configuration list for PBXProject "JSS Report" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C6D6888180C596C002FF9A5;
+			productRefGroup = 3C6D6892180C596C002FF9A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C6D6890180C596C002FF9A5 /* JSS Report */,
+				3C6D68B1180C596C002FF9A5 /* JSS ReportTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C6D688F180C596C002FF9A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C6D68AD180C596C002FF9A5 /* Images.xcassets in Resources */,
+				3C6D689F180C596C002FF9A5 /* InfoPlist.strings in Resources */,
+				3C6D68A8180C596C002FF9A5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C6D68B0180C596C002FF9A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C6D68BE180C596C002FF9A5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C6D688D180C596C002FF9A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C6D68A5180C596C002FF9A5 /* SRTJRAppDelegate.m in Sources */,
+				3C6D68AB180C596C002FF9A5 /* SRTJRViewController.m in Sources */,
+				3C6D68A1180C596C002FF9A5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C6D68AE180C596C002FF9A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C6D68C0180C596C002FF9A5 /* JSS_ReportTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C6D68B8180C596C002FF9A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C6D6890180C596C002FF9A5 /* JSS Report */;
+			targetProxy = 3C6D68B7180C596C002FF9A5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3C6D689D180C596C002FF9A5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C6D689E180C596C002FF9A5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3C6D68A6180C596C002FF9A5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C6D68A7180C596C002FF9A5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3C6D68BC180C596C002FF9A5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C6D68BD180C596C002FF9A5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C6D68C1180C596C002FF9A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		3C6D68C2180C596C002FF9A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C6D68C4180C596C002FF9A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JSS Report/JSS Report-Prefix.pch";
+				INFOPLIST_FILE = "JSS Report/JSS Report-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3C6D68C5180C596C002FF9A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JSS Report/JSS Report-Prefix.pch";
+				INFOPLIST_FILE = "JSS Report/JSS Report-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3C6D68C7180C596C002FF9A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JSS Report.app/JSS Report";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JSS Report/JSS Report-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "JSS ReportTests/JSS ReportTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		3C6D68C8180C596C002FF9A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JSS Report.app/JSS Report";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JSS Report/JSS Report-Prefix.pch";
+				INFOPLIST_FILE = "JSS ReportTests/JSS ReportTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C6D688C180C596C002FF9A5 /* Build configuration list for PBXProject "JSS Report" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C6D68C1180C596C002FF9A5 /* Debug */,
+				3C6D68C2180C596C002FF9A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C6D68C3180C596C002FF9A5 /* Build configuration list for PBXNativeTarget "JSS Report" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C6D68C4180C596C002FF9A5 /* Debug */,
+				3C6D68C5180C596C002FF9A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3C6D68C6180C596C002FF9A5 /* Build configuration list for PBXNativeTarget "JSS ReportTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C6D68C7180C596C002FF9A5 /* Debug */,
+				3C6D68C8180C596C002FF9A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C6D6889180C596C002FF9A5 /* Project object */;
+}
