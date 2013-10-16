@@ -14,13 +14,38 @@
 		3C6D68A1180C596C002FF9A5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6D68A0180C596C002FF9A5 /* main.m */; };
 		3C6D68A5180C596C002FF9A5 /* SRTJRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6D68A4180C596C002FF9A5 /* SRTJRAppDelegate.m */; };
 		3C6D68A8180C596C002FF9A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C6D68A6180C596C002FF9A5 /* Main.storyboard */; };
-		3C6D68AB180C596C002FF9A5 /* SRTJRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6D68AA180C596C002FF9A5 /* SRTJRViewController.m */; };
 		3C6D68AD180C596C002FF9A5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C6D68AC180C596C002FF9A5 /* Images.xcassets */; };
 		3C6D68B4180C596C002FF9A5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C6D68B3180C596C002FF9A5 /* XCTest.framework */; };
 		3C6D68B5180C596C002FF9A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C6D6894180C596C002FF9A5 /* Foundation.framework */; };
 		3C6D68B6180C596C002FF9A5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C6D6898180C596C002FF9A5 /* UIKit.framework */; };
 		3C6D68BE180C596C002FF9A5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3C6D68BC180C596C002FF9A5 /* InfoPlist.strings */; };
 		3C6D68C0180C596C002FF9A5 /* JSS_ReportTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6D68BF180C596C002FF9A5 /* JSS_ReportTests.m */; };
+		3C6D68F3180C5A28002FF9A5 /* XYPieChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6D68F2180C5A28002FF9A5 /* XYPieChart.m */; };
+		3C6D68F4180C5A28002FF9A5 /* XYPieChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6D68F2180C5A28002FF9A5 /* XYPieChart.m */; };
+		3C6D68F8180C5A41002FF9A5 /* AJNotificationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6D68F7180C5A41002FF9A5 /* AJNotificationView.m */; };
+		3C6D68F9180C5A41002FF9A5 /* AJNotificationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6D68F7180C5A41002FF9A5 /* AJNotificationView.m */; };
+		3C6D68FD180C5A61002FF9A5 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6D68FC180C5A61002FF9A5 /* Reachability.m */; };
+		3C6D68FE180C5A61002FF9A5 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6D68FC180C5A61002FF9A5 /* Reachability.m */; };
+		3C6D6903180C5A87002FF9A5 /* SWJMConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6D6900180C5A87002FF9A5 /* SWJMConstants.m */; };
+		3C6D6904180C5A87002FF9A5 /* SWJMConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6D6900180C5A87002FF9A5 /* SWJMConstants.m */; };
+		3C6D6905180C5A87002FF9A5 /* SWJMDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6D6902180C5A87002FF9A5 /* SWJMDataManager.m */; };
+		3C6D6906180C5A87002FF9A5 /* SWJMDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6D6902180C5A87002FF9A5 /* SWJMDataManager.m */; };
+		3C6D6911180C5E32002FF9A5 /* SRTJRMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6D6910180C5E32002FF9A5 /* SRTJRMainViewController.m */; };
+		3C6D6912180C5E32002FF9A5 /* SRTJRMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6D6910180C5E32002FF9A5 /* SRTJRMainViewController.m */; };
+		3C6D6915180C61A6002FF9A5 /* SRTiLMLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6D6914180C61A6002FF9A5 /* SRTiLMLoginViewController.m */; };
+		3C6D6916180C61A6002FF9A5 /* SRTiLMLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6D6914180C61A6002FF9A5 /* SRTiLMLoginViewController.m */; };
+		3C6D6968180C9868002FF9A5 /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6D695C180C9868002FF9A5 /* AFHTTPClient.m */; };
+		3C6D6969180C9868002FF9A5 /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6D695C180C9868002FF9A5 /* AFHTTPClient.m */; };
+		3C6D696A180C9868002FF9A5 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6D695E180C9868002FF9A5 /* AFHTTPRequestOperation.m */; };
+		3C6D696B180C9868002FF9A5 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6D695E180C9868002FF9A5 /* AFHTTPRequestOperation.m */; };
+		3C6D696C180C9868002FF9A5 /* AFJSONRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6D6960180C9868002FF9A5 /* AFJSONRequestOperation.m */; };
+		3C6D696D180C9868002FF9A5 /* AFJSONRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6D6960180C9868002FF9A5 /* AFJSONRequestOperation.m */; };
+		3C6D696E180C9868002FF9A5 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6D6962180C9868002FF9A5 /* AFNetworkActivityIndicatorManager.m */; };
+		3C6D696F180C9868002FF9A5 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6D6962180C9868002FF9A5 /* AFNetworkActivityIndicatorManager.m */; };
+		3C6D6970180C9868002FF9A5 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6D6965180C9868002FF9A5 /* AFURLConnectionOperation.m */; };
+		3C6D6971180C9868002FF9A5 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6D6965180C9868002FF9A5 /* AFURLConnectionOperation.m */; };
+		3C6D6972180C9868002FF9A5 /* AFXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6D6967180C9868002FF9A5 /* AFXMLRequestOperation.m */; };
+		3C6D6973180C9868002FF9A5 /* AFXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6D6967180C9868002FF9A5 /* AFXMLRequestOperation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +70,39 @@
 		3C6D68A3180C596C002FF9A5 /* SRTJRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SRTJRAppDelegate.h; sourceTree = "<group>"; };
 		3C6D68A4180C596C002FF9A5 /* SRTJRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SRTJRAppDelegate.m; sourceTree = "<group>"; };
 		3C6D68A7180C596C002FF9A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3C6D68A9180C596C002FF9A5 /* SRTJRViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SRTJRViewController.h; sourceTree = "<group>"; };
-		3C6D68AA180C596C002FF9A5 /* SRTJRViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SRTJRViewController.m; sourceTree = "<group>"; };
 		3C6D68AC180C596C002FF9A5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3C6D68B2180C596C002FF9A5 /* JSS ReportTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JSS ReportTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C6D68B3180C596C002FF9A5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		3C6D68BB180C596C002FF9A5 /* JSS ReportTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JSS ReportTests-Info.plist"; sourceTree = "<group>"; };
 		3C6D68BD180C596C002FF9A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3C6D68BF180C596C002FF9A5 /* JSS_ReportTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSS_ReportTests.m; sourceTree = "<group>"; };
+		3C6D68F1180C5A28002FF9A5 /* XYPieChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYPieChart.h; sourceTree = "<group>"; };
+		3C6D68F2180C5A28002FF9A5 /* XYPieChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYPieChart.m; sourceTree = "<group>"; };
+		3C6D68F6180C5A41002FF9A5 /* AJNotificationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AJNotificationView.h; sourceTree = "<group>"; };
+		3C6D68F7180C5A41002FF9A5 /* AJNotificationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AJNotificationView.m; sourceTree = "<group>"; };
+		3C6D68FB180C5A61002FF9A5 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		3C6D68FC180C5A61002FF9A5 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		3C6D68FF180C5A87002FF9A5 /* SWJMConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWJMConstants.h; sourceTree = "<group>"; };
+		3C6D6900180C5A87002FF9A5 /* SWJMConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWJMConstants.m; sourceTree = "<group>"; };
+		3C6D6901180C5A87002FF9A5 /* SWJMDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWJMDataManager.h; sourceTree = "<group>"; };
+		3C6D6902180C5A87002FF9A5 /* SWJMDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWJMDataManager.m; sourceTree = "<group>"; };
+		3C6D690F180C5E32002FF9A5 /* SRTJRMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRTJRMainViewController.h; sourceTree = "<group>"; };
+		3C6D6910180C5E32002FF9A5 /* SRTJRMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRTJRMainViewController.m; sourceTree = "<group>"; };
+		3C6D6913180C61A6002FF9A5 /* SRTiLMLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRTiLMLoginViewController.h; sourceTree = "<group>"; };
+		3C6D6914180C61A6002FF9A5 /* SRTiLMLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRTiLMLoginViewController.m; sourceTree = "<group>"; };
+		3C6D695B180C9868002FF9A5 /* AFHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPClient.h; sourceTree = "<group>"; };
+		3C6D695C180C9868002FF9A5 /* AFHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPClient.m; sourceTree = "<group>"; };
+		3C6D695D180C9868002FF9A5 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		3C6D695E180C9868002FF9A5 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		3C6D695F180C9868002FF9A5 /* AFJSONRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFJSONRequestOperation.h; sourceTree = "<group>"; };
+		3C6D6960180C9868002FF9A5 /* AFJSONRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFJSONRequestOperation.m; sourceTree = "<group>"; };
+		3C6D6961180C9868002FF9A5 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
+		3C6D6962180C9868002FF9A5 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkActivityIndicatorManager.m; sourceTree = "<group>"; };
+		3C6D6963180C9868002FF9A5 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		3C6D6964180C9868002FF9A5 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		3C6D6965180C9868002FF9A5 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		3C6D6966180C9868002FF9A5 /* AFXMLRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFXMLRequestOperation.h; sourceTree = "<group>"; };
+		3C6D6967180C9868002FF9A5 /* AFXMLRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFXMLRequestOperation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,11 +162,18 @@
 		3C6D689A180C596C002FF9A5 /* JSS Report */ = {
 			isa = PBXGroup;
 			children = (
+				3C6D6913180C61A6002FF9A5 /* SRTiLMLoginViewController.h */,
+				3C6D6914180C61A6002FF9A5 /* SRTiLMLoginViewController.m */,
+				3C6D68FF180C5A87002FF9A5 /* SWJMConstants.h */,
+				3C6D6900180C5A87002FF9A5 /* SWJMConstants.m */,
+				3C6D6901180C5A87002FF9A5 /* SWJMDataManager.h */,
+				3C6D6902180C5A87002FF9A5 /* SWJMDataManager.m */,
+				3C6D690F180C5E32002FF9A5 /* SRTJRMainViewController.h */,
+				3C6D6910180C5E32002FF9A5 /* SRTJRMainViewController.m */,
+				3C6D68C9180C59B4002FF9A5 /* Vendor */,
 				3C6D68A3180C596C002FF9A5 /* SRTJRAppDelegate.h */,
 				3C6D68A4180C596C002FF9A5 /* SRTJRAppDelegate.m */,
 				3C6D68A6180C596C002FF9A5 /* Main.storyboard */,
-				3C6D68A9180C596C002FF9A5 /* SRTJRViewController.h */,
-				3C6D68AA180C596C002FF9A5 /* SRTJRViewController.m */,
 				3C6D68AC180C596C002FF9A5 /* Images.xcassets */,
 				3C6D689B180C596C002FF9A5 /* Supporting Files */,
 			);
@@ -150,6 +207,64 @@
 				3C6D68BC180C596C002FF9A5 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3C6D68C9180C59B4002FF9A5 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				3C6D68FA180C5A47002FF9A5 /* Reachability */,
+				3C6D68F5180C5A2E002FF9A5 /* AJNotificationView */,
+				3C6D68EF180C59FE002FF9A5 /* XYPieChart */,
+				3C6D68F0180C5A0F002FF9A5 /* AFNetworking */,
+			);
+			name = Vendor;
+			sourceTree = "<group>";
+		};
+		3C6D68EF180C59FE002FF9A5 /* XYPieChart */ = {
+			isa = PBXGroup;
+			children = (
+				3C6D68F1180C5A28002FF9A5 /* XYPieChart.h */,
+				3C6D68F2180C5A28002FF9A5 /* XYPieChart.m */,
+			);
+			name = XYPieChart;
+			sourceTree = "<group>";
+		};
+		3C6D68F0180C5A0F002FF9A5 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				3C6D695B180C9868002FF9A5 /* AFHTTPClient.h */,
+				3C6D695C180C9868002FF9A5 /* AFHTTPClient.m */,
+				3C6D695D180C9868002FF9A5 /* AFHTTPRequestOperation.h */,
+				3C6D695E180C9868002FF9A5 /* AFHTTPRequestOperation.m */,
+				3C6D695F180C9868002FF9A5 /* AFJSONRequestOperation.h */,
+				3C6D6960180C9868002FF9A5 /* AFJSONRequestOperation.m */,
+				3C6D6961180C9868002FF9A5 /* AFNetworkActivityIndicatorManager.h */,
+				3C6D6962180C9868002FF9A5 /* AFNetworkActivityIndicatorManager.m */,
+				3C6D6963180C9868002FF9A5 /* AFNetworking.h */,
+				3C6D6964180C9868002FF9A5 /* AFURLConnectionOperation.h */,
+				3C6D6965180C9868002FF9A5 /* AFURLConnectionOperation.m */,
+				3C6D6966180C9868002FF9A5 /* AFXMLRequestOperation.h */,
+				3C6D6967180C9868002FF9A5 /* AFXMLRequestOperation.m */,
+			);
+			name = AFNetworking;
+			sourceTree = "<group>";
+		};
+		3C6D68F5180C5A2E002FF9A5 /* AJNotificationView */ = {
+			isa = PBXGroup;
+			children = (
+				3C6D68F6180C5A41002FF9A5 /* AJNotificationView.h */,
+				3C6D68F7180C5A41002FF9A5 /* AJNotificationView.m */,
+			);
+			name = AJNotificationView;
+			sourceTree = "<group>";
+		};
+		3C6D68FA180C5A47002FF9A5 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				3C6D68FB180C5A61002FF9A5 /* Reachability.h */,
+				3C6D68FC180C5A61002FF9A5 /* Reachability.m */,
+			);
+			name = Reachability;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,9 +365,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C6D6970180C9868002FF9A5 /* AFURLConnectionOperation.m in Sources */,
+				3C6D6972180C9868002FF9A5 /* AFXMLRequestOperation.m in Sources */,
+				3C6D6911180C5E32002FF9A5 /* SRTJRMainViewController.m in Sources */,
 				3C6D68A5180C596C002FF9A5 /* SRTJRAppDelegate.m in Sources */,
-				3C6D68AB180C596C002FF9A5 /* SRTJRViewController.m in Sources */,
+				3C6D696C180C9868002FF9A5 /* AFJSONRequestOperation.m in Sources */,
+				3C6D68F3180C5A28002FF9A5 /* XYPieChart.m in Sources */,
+				3C6D68FD180C5A61002FF9A5 /* Reachability.m in Sources */,
+				3C6D6903180C5A87002FF9A5 /* SWJMConstants.m in Sources */,
+				3C6D6968180C9868002FF9A5 /* AFHTTPClient.m in Sources */,
+				3C6D6915180C61A6002FF9A5 /* SRTiLMLoginViewController.m in Sources */,
+				3C6D6905180C5A87002FF9A5 /* SWJMDataManager.m in Sources */,
+				3C6D696E180C9868002FF9A5 /* AFNetworkActivityIndicatorManager.m in Sources */,
 				3C6D68A1180C596C002FF9A5 /* main.m in Sources */,
+				3C6D68F8180C5A41002FF9A5 /* AJNotificationView.m in Sources */,
+				3C6D696A180C9868002FF9A5 /* AFHTTPRequestOperation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +387,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C6D6971180C9868002FF9A5 /* AFURLConnectionOperation.m in Sources */,
+				3C6D696D180C9868002FF9A5 /* AFJSONRequestOperation.m in Sources */,
+				3C6D68FE180C5A61002FF9A5 /* Reachability.m in Sources */,
+				3C6D68F4180C5A28002FF9A5 /* XYPieChart.m in Sources */,
+				3C6D696B180C9868002FF9A5 /* AFHTTPRequestOperation.m in Sources */,
+				3C6D6969180C9868002FF9A5 /* AFHTTPClient.m in Sources */,
+				3C6D6973180C9868002FF9A5 /* AFXMLRequestOperation.m in Sources */,
+				3C6D6906180C5A87002FF9A5 /* SWJMDataManager.m in Sources */,
+				3C6D68F9180C5A41002FF9A5 /* AJNotificationView.m in Sources */,
+				3C6D6916180C61A6002FF9A5 /* SRTiLMLoginViewController.m in Sources */,
+				3C6D696F180C9868002FF9A5 /* AFNetworkActivityIndicatorManager.m in Sources */,
+				3C6D6912180C5E32002FF9A5 /* SRTJRMainViewController.m in Sources */,
+				3C6D6904180C5A87002FF9A5 /* SWJMConstants.m in Sources */,
 				3C6D68C0180C596C002FF9A5 /* JSS_ReportTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
